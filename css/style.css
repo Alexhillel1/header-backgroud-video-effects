@@ -36,6 +36,7 @@ nav {
   padding: 6px 15px;
   color: #fff;
   border-radius: 20px;
+
   position: relative;
 }
 
@@ -43,4 +44,54 @@ nav {
 .header .nav-links li a.active {
   background-color: #ff3d00;
   color: #fff;
+}
+
+.btn {
+  background-color: #ff3d00;
+  color: #fff;
+  padding: 5px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 90%;
+  max-width: 900px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.content h1 {
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.content form {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.content form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.content form button {
+  background: #ff3d00;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
